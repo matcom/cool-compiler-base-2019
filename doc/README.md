@@ -2,9 +2,9 @@
 
 > Introduzca sus datos (de todo el equipo) debajo:
 
-* Nombre1 Apellido1 Apellido2 ([@github_user](https://github.com/<user>])
-* Nombre2 Apellido1 Apellido2 ([@github_user](https://github.com/<user>])
-* Nombre3 Apellido1 Apellido2 ([@github_user](https://github.com/<user>])
+* Nombre1 Apellido1 Apellido2 ([@github_user](https://github.com/<user>))
+* Nombre2 Apellido1 Apellido2 ([@github_user](https://github.com/<user>))
+* Nombre3 Apellido1 Apellido2 ([@github_user](https://github.com/<user>))
 
 ## Reporte escrito
 
