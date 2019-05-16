@@ -2,8 +2,9 @@
 
 > Proyecto base para el compilador de 4to año en Ciencia de la Computación.
 
-## TABLA DE CONTENIDOS
+## Contenido
 
+- [Generalidades](#generalidades)
 - [Sobre el Lenguaje COOL](#sobre-el-lenguaje-cool)
 - [Sobre el Compilador de COOL](#sobre-el-compilador-de-cool)
 - [Sobre la Implementación del Compilador de COOL](#sobre-la-implementaci%C3%B3n-del-compilador-de-cool)
@@ -11,7 +12,7 @@
 - [Sobre los Materiales a Entregar](#sobre-los-materiales-a-entregar)
 - [Sobre la Fecha de Entrega](#sobre-la-fecha-de-entrega)
 
-## PARTE I: GENERALES DEL PROYECTO
+## Generalidades
 
 La evaluación de la asignatura Complementos de Compilación, inscrita en el programa del 4to año de la Licenciatura en Ciencia de la Computación de la Facultad de Matemática y Computación de la
 Universidad de La Habana, consiste este curso en la implementación de un compilador completamente
