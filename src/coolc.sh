@@ -8,4 +8,5 @@ echo "LINEA_CON_NOMBRE_Y_VERSION_DEL_COMPILADOR"   # Recuerde cambiar estas
 echo "Copyright (c) 2019: Nombre1, Nombre2, Nombre3"    # líneas a los valores correctos
 
 # Llamar al compilador
-echo "Compiling $INPUT_FILE into $OUTPUT_FILE"
+# echo "Compiling $INPUT_FILE into $OUTPUT_FILE"
+
