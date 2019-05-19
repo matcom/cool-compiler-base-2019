@@ -41,7 +41,7 @@ El siguiente paso depende de si usted ya tiene su código versionado con `git` o
 
 ### 5.A. Si tiene su proyecto en git (y no quiere perder la historia):
 
-5.1. Mezcle hacia el nuevo respositorio su repostorio anterior:
+5.1. Mezcle hacia el nuevo respositorio su repositorio anterior:
 
 ```bash
 $ cd cool-compiler-<team>
