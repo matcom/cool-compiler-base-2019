@@ -28,7 +28,7 @@ $ ./compile.sh <input.cl> <output.mips>
 
 ## Sobre el Lenguaje COOL
 
-Ud. podrá encontrar la especificación formal del lenguaje COOL en el documento _"COOL Language Reference Manual"_, que se distribuye junto con el presente texto.
+Ud. podrá encontrar la especificación formal del lenguaje COOL en el documento [_COOL Language Reference Manual_](../doc/cool-manual.pdf), que se distribuye junto con el presente texto.
 
 ## Sobre el Compilador de COOL
 
