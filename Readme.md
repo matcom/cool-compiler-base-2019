@@ -18,7 +18,7 @@ El proyecto de Compilación será recogido y evaluado **únicamente** a través 
 
 ![](img/img1.png)
 
-### 2. Haga click en [este link](https://classroom.github.com/g/QrlsVQA4) y aceptar la tarea, creando un nuevo equipo, o uniéndose a un equipo existente.
+### 2. Haga click en [este link](https://classroom.github.com/g/QrlsVQA4) y acepte la tarea, creando un nuevo equipo, o uniéndose a un equipo existente.
 
 ![](img/img2.png)
 
