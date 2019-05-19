@@ -53,6 +53,7 @@ $ git pull my-compiler-project master
 
 ```bash
 $ mv ...
+$ git add .
 $ git commit -a -m "Mezclado con el proyecto base"
 ```
 
