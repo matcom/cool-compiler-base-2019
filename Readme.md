@@ -16,7 +16,7 @@ Ponga todo su código e instrucciones necesarias en la carpeta `src`. Más infor
 
 ## Sobre la documentación
 
-Usted debe documentar  necesarias en la carpeta `src`. Más información en [`src/Readme.md`](src/Readme.md).
+Usted debe presentar un reporte escrito documentando el proceso de construcción de su compilador y los detalles más importantes de su funcionamiento. Más información en [`doc/Readme.md`](doc/Readme.md).
 
 ### Sobre los Equipos de Desarrollo
 
