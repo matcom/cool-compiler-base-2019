@@ -75,6 +75,10 @@ $ git commit -a -m "Hello Git!"
 
 5.3. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
 
+```bash
+$ git push origin master
+```
+
 ### 6. Asegúrese de que sus cambios están online en el momento de revisar el compilador.
 
 ![](img/img5.png)
