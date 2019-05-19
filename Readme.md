@@ -64,7 +64,20 @@ $ git push origin master
 
 ### Si aún no tiene su proyecto en git:
 
+6. Simplemente copie el código de su proyecto en la carpeta correspondiente `src` y haga su primer commit:
 
+```bash
+$ cp ...
+$ git commit -a -m "Hello Git!"
+```
+
+7. A partir de este punto asegúrese de hacer `commit` de forma regular para mantener su repositorio actualizado. Si necesita saber más sobre `git`, todo lo imprescindible está [esta guía](doc/github-git-cheat-sheet.pdf).
+
+8. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
+
+### 9. Asegúrese de que sus cambios están online en el momento de revisar el compilador.
+
+![](img/img5.png)
 
 ## Sobre la implementación
 
