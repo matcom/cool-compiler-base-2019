@@ -28,16 +28,19 @@ $ ./compile.sh <input_file.cl>
 
 > **NOTA:** Su proyecto será ejecutado y evaluado en un entorno **Linux**. Si usted desarrolló en un entorno diferente, asegúrese de que es posible ejecutar su proyecto en Linux. En el caso de **.NET**, vea las instrucciones para portar su proyecto a **.NET Core** (la versión Open Source) [aquí](https://dotnet.microsoft.com/) y asegúrese de probar que funciona en Linux. **NO es posible** entregar su proyecto en forma de una solución que necesite abrirse con Visual Studio para funcionar.
 
-## Sobre el Lenguaje COOL
+## Sobre el lenguaje COOL
 
 Ud. podrá encontrar la especificación formal del lenguaje COOL en el documento [_COOL Language Reference Manual_](../doc/cool-manual.pdf), que se distribuye junto con el presente texto.
 
-## Sobre el Compilador de COOL
+## Sobre el funcionamiento del compilador
 
-El compilador de COOL debe ser un archivo ejecutable de consola de nombre **coolc** (con la extensión
-apropiada, por ejemplo: **.exe** o **.py**) que reciba como primer y único argumento la ruta --relativa o absoluta--
-a un archivo de texto plano con extensión **.cl**, el cual contendrá el código del programa a compilar.
-En caso de que ocurran errores durante la operación del compilador, **coolc** deberá terminar con código
+El compilador de COOL se ejecutará como se ha definido anteriormente.
+En caso de que no ocurran errores durante la operación del compilador, **coolc.sh** deberá terminar con código de salida 0, generar (o sobrescribir si ya existe) en la misma carpeta del archivo **.cl** procesado, y con el mismo nombre que éste, un archivo con extension **.mips** que pueda ser ejecutado con **spim**. Además, reportar a la salida estándar solamente lo siguiente:
+
+    <línea_con_nombre_y_versión_del_compilador>
+    <línea_con_copyright_para_el_compilador>
+
+En caso de que ocurran errores durante la operación del compilador, **coolc.sh** deberá terminar con código
 de salida (exit code) 1 y reportar a la salida estándar (standard output stream) lo que sigue...
 
     <línea_con_nombre_y_versión_del_compilador>
@@ -66,11 +69,6 @@ El campo `<tipo_de_error>` será alguno entre:
     - tipo referenciado pero no definido.
 - `AttributeError`: se reporta cuando un atributo o método se referencia pero no está definido.
 - `SemanticError`: cualquier otro error semántico.
-
-En caso de que no ocurran errores durante la operación del compilador, **coolc** deberá terminar con código de salida 0, generar (o sobrescribir si ya existe) en la misma carpeta del archivo **.cl** procesado, y con el mismo nombre que éste, un archivo con extension **.mips** que pueda ser ejecutado con **spim**. Además, reportar a la salida estándar solamente lo siguiente:
-
-    <línea_con_nombre_y_versión_del_compilador>
-    <línea_con_copyright_para_el_compilador>
 
 ## Sobre la Implementación del Compilador de COOL
 
