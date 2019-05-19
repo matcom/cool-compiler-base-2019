@@ -14,19 +14,29 @@ _COOL (Classroom Object-Oriented Language)_ es un pequeño lenguaje que puede se
 
 El proyecto de Compilación será recogido y evaluado **únicamente** a través de Github. Es imprescindible tener una cuenta de Github para cada participante, y que su proyecto esté correctamente hosteado en esta plataforma. A continuación le damos las instrucciones mínimas necesarias para ello:
 
-1. Si no lo ha echo ya, crearse una cuenta en [Github](https://github.com) (es gratis) para **todos los miembros del equipo**.
+### 1. Si no lo ha echo ya, crearse una cuenta en [Github](https://github.com) (es gratis) para **todos los miembros del equipo**.
 
 ![](img/img1.png)
 
-2. Hacer click en [este link](https://classroom.github.com/g/QrlsVQA4) y **aceptar la tarea**, creando un nuevo equipo, o uniéndose a un equipo existente.
+### 2. Hacer click en [este link](https://classroom.github.com/g/QrlsVQA4) y **aceptar la tarea**, creando un nuevo equipo, o uniéndose a un equipo existente.
 
 ![](img/img2.png)
 
-3. Una vez echo esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019)
+### 3. Una vez echo esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019).
 
 ![](img/img3.png)
 
+### 4. Clone este proyecto en un repositorio local. Busque la URL de su proyecto en la interfaz web de Github.
 
+![](img/img4.png)
+
+```bash
+$ git clone git@github.com:matcom-compilers-2019/cool-compiler-<team>.git
+```
+
+> Donde `<team>` es posiblemente el nombre de su equipo.
+
+### 5. A partir de este punto debe tener un proyecto `cool-compiler-<team>` local.
 
 ## Sobre la implementación
 
