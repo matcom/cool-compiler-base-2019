@@ -12,9 +12,9 @@ Nombre3 Apellido1 Apellido2 | C4xx | [@github_user](https://github.com/<user>)
 
 Modifique el contenido documento para documentar de forma clara y concisa los siguientes aspectos:
 
-- Cómo ejecutar (y compilar si es necesario) su compilador
-- Requisitos adicionales (dependencias, configuración, etc.)
-- Opciones adicionales que tenga su compilador
+- Cómo ejecutar (y compilar si es necesario) su compilador.
+- Requisitos adicionales, dependencias, configuración, etc.
+- Opciones adicionales que tenga su compilador.
 
 ## Reporte escrito
 
