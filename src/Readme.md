@@ -17,14 +17,16 @@ $ make
 
 ## Ejecutando su proyecto
 
-Incluya en el archivo [`/src/compile.sh`](/src/compile.sh) todas las instrucciones que hacen falta para lanzar su compilador. Recibirá como entrada un archivo con extensión `.cl` y debe generar como salida un archivo `.mips` cuyo nombre recibirá como argumento.
+Incluya en el archivo [`/src/coolc.sh`](/src/compile.sh) todas las instrucciones que hacen falta para lanzar su compilador. Recibirá como entrada un archivo con extensión `.cl` y debe generar como salida un archivo `.mips` cuyo nombre será el mismo que la entrada.
 
 Para lanzar el compilador, se ejecutará la siguiente instrucción:
 
 ```bash
 $ cd source
-$ ./compile.sh <input.cl> <output.mips>
+$ ./compile.sh <input_file.cl>
 ```
+
+> **NOTA:** Su proyecto será ejecutado y evaluado en un entorno **Linux**. Si usted desarrolló en un entorno diferente, asegúrese de que es posible ejecutar su proyecto en Linux. En el caso de **.NET**, vea las instrucciones para portar su proyecto a **.NET Core** (la versión Open Source) [aquí](https://dotnet.microsoft.com/) y asegúrese de probar que funciona en Linux. **NO es posible** entregar su proyecto en forma de una solución que necesite abrirse con Visual Studio para funcionar.
 
 ## Sobre el Lenguaje COOL
 
@@ -33,7 +35,7 @@ Ud. podrá encontrar la especificación formal del lenguaje COOL en el documento
 ## Sobre el Compilador de COOL
 
 El compilador de COOL debe ser un archivo ejecutable de consola de nombre **coolc** (con la extensión
-apropiada, por ejemplo: **.exe**) que reciba como primer y único argumento la ruta –relativa o absoluta–
+apropiada, por ejemplo: **.exe** o **.py**) que reciba como primer y único argumento la ruta --relativa o absoluta--
 a un archivo de texto plano con extensión **.cl**, el cual contendrá el código del programa a compilar.
 En caso de que ocurran errores durante la operación del compilador, **coolc** deberá terminar con código
 de salida (exit code) 1 y reportar a la salida estándar (standard output stream) lo que sigue...
