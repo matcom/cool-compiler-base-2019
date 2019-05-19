@@ -45,13 +45,13 @@ El siguiente paso depende de si usted ya tiene su código versionado con `git` o
 
 ```bash
 $ cd cool-compiler-<team>
-$ git pull my-compiler-project master
+$ git pull <my-old-compiler-project> master
 ```
 
 5.2. Organice su proyecto, código fuente y documentación, de acuerdo a las instrucciones de este documento, y vuelva a hacer `commit`.
 
 ```bash
-$ mv ...
+$ mv <my-old-code> src/
 $ git add .
 $ git commit -a -m "Mezclado con el proyecto base"
 ```
@@ -67,7 +67,7 @@ $ git push origin master
 5.1. Simplemente copie el código de su proyecto en la carpeta correspondiente `src` y haga su primer commit:
 
 ```bash
-$ cp ...
+$ mv <my-old-code> src/
 $ git commit -a -m "Hello Git!"
 ```
 
