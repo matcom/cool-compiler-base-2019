@@ -14,7 +14,7 @@ _COOL (Classroom Object-Oriented Language)_ es un pequeño lenguaje que puede se
 
 El proyecto de Compilación será recogido y evaluado **únicamente** a través de Github. Es imprescindible tener una cuenta de Github para cada participante, y que su proyecto esté correctamente hosteado en esta plataforma. A continuación le damos las instrucciones mínimas necesarias para ello:
 
-### 1. Si no lo ha echo ya, regístrense en [Github](https://github.com) (es gratis) todos los miembros del equipo.
+### 1. Si no lo han hecho ya, regístrense en [Github](https://github.com) todos los miembros del equipo (es gratis).
 
 ![](img/img1.png)
 
@@ -22,7 +22,7 @@ El proyecto de Compilación será recogido y evaluado **únicamente** a través 
 
 ![](img/img2.png)
 
-### 3. Una vez echo esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019). Revise que el repositorio de su equipo está en la lista.
+### 3. Una vez hecho esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019). Revise que el repositorio de su equipo está en la lista.
 
 ![](img/img3.png)
 
