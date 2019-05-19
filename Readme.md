@@ -36,8 +36,7 @@ $ git clone git@github.com:matcom-compilers-2019/cool-compiler-<team>.git
 
 > Donde `<team>` es posiblemente el nombre de su equipo.
 
-### A partir de este punto debe tener un proyecto `cool-compiler-<team>` local.
-
+A partir de este punto debe tener un proyecto `cool-compiler-<team>` local.
 El siguiente paso depende de si usted ya tiene su código versionado con `git` o no.
 
 ### 5.A. Si tiene su proyecto en git (y no quiere perder la historia):
