@@ -14,15 +14,15 @@ _COOL (Classroom Object-Oriented Language)_ es un pequeño lenguaje que puede se
 
 El proyecto de Compilación será recogido y evaluado **únicamente** a través de Github. Es imprescindible tener una cuenta de Github para cada participante, y que su proyecto esté correctamente hosteado en esta plataforma. A continuación le damos las instrucciones mínimas necesarias para ello:
 
-### 1. Si no lo ha echo ya, crearse una cuenta en [Github](https://github.com) (es gratis) para todos los miembros del equipo.
+### 1. Si no lo ha echo ya, regístrense en [Github](https://github.com) (es gratis) todos los miembros del equipo.
 
 ![](img/img1.png)
 
-### 2. Hacer click en [este link](https://classroom.github.com/g/QrlsVQA4) y aceptar la tarea, creando un nuevo equipo, o uniéndose a un equipo existente.
+### 2. Haga click en [este link](https://classroom.github.com/g/QrlsVQA4) y aceptar la tarea, creando un nuevo equipo, o uniéndose a un equipo existente.
 
 ![](img/img2.png)
 
-### 3. Una vez echo esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019).
+### 3. Una vez echo esto, tendrá un nuevo repositorio en [Github/MatCom Compilers 2019](https://github.com/matcom-compilers-2019). Revise que el repositorio de su equipo está en la lista.
 
 ![](img/img3.png)
 
@@ -36,20 +36,20 @@ $ git clone git@github.com:matcom-compilers-2019/cool-compiler-<team>.git
 
 > Donde `<team>` es posiblemente el nombre de su equipo.
 
-### 5. A partir de este punto debe tener un proyecto `cool-compiler-<team>` local.
+### A partir de este punto debe tener un proyecto `cool-compiler-<team>` local.
 
 El siguiente paso depende de si usted ya tiene su código versionado con `git` o no.
 
-### Si tiene su proyecto en git (y no quiere perder la historia):
+### 5.A. Si tiene su proyecto en git (y no quiere perder la historia):
 
-6. Mezcle hacia el nuevo respositorio su repostorio anterior:
+5.1. Mezcle hacia el nuevo respositorio su repostorio anterior:
 
 ```bash
 $ cd cool-compiler-<team>
 $ git pull my-compiler-project master
 ```
 
-7. Organice su proyecto, código fuente y documentación, de acuerdo a las instrucciones de este documento, y vuelva a hacer `commit`.
+5.2. Organice su proyecto, código fuente y documentación, de acuerdo a las instrucciones de este documento, y vuelva a hacer `commit`.
 
 ```bash
 $ mv ...
@@ -57,26 +57,26 @@ $ git add .
 $ git commit -a -m "Mezclado con el proyecto base"
 ```
 
-8. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
+5.3. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
 
 ```bash
 $ git push origin master
 ```
 
-### Si aún no tiene su proyecto en git:
+### 5.B Si aún no tiene su proyecto en git (o no le importa la historia):
 
-6. Simplemente copie el código de su proyecto en la carpeta correspondiente `src` y haga su primer commit:
+5.1. Simplemente copie el código de su proyecto en la carpeta correspondiente `src` y haga su primer commit:
 
 ```bash
 $ cp ...
 $ git commit -a -m "Hello Git!"
 ```
 
-7. A partir de este punto asegúrese de hacer `commit` de forma regular para mantener su repositorio actualizado. Si necesita saber más sobre `git`, todo lo imprescindible está [esta guía](doc/github-git-cheat-sheet.pdf).
+5.2. A partir de este punto asegúrese de hacer `commit` de forma regular para mantener su repositorio actualizado. Si necesita saber más sobre `git`, todo lo imprescindible está [esta guía](doc/github-git-cheat-sheet.pdf).
 
-8. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
+5.3. A partir de este punto puede hacer `push` cada vez que tenga cambios que subir:
 
-### 9. Asegúrese de que sus cambios están online en el momento de revisar el compilador.
+### 6. Asegúrese de que sus cambios están online en el momento de revisar el compilador.
 
 ![](img/img5.png)
 
